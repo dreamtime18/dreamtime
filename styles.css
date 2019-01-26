@@ -1,43 +1,59 @@
+nav {
+  list-style-type: none;
 
-body{
-  background-color: #EDFFEC;
+  overflow: hidden;
+  background-color: #333;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
-h3 {
-  font-family: 'Arvo', serif;
-  border: 3px blue groove;
-  background-color: #61E786
+li {
+  float: right;
 }
-p {
-  font-family: 'Arvo', serif;
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+
 }
-h1 {
-  font-family: 'Amatic SC', cursive;
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #CCC;
 }
-.favorite{
-  color: #5941f4;
+
+.active{
+  background-color: #4CAF50;
 }
-nav{
-  border: 3px blue groove;
+.banner{
+  text-align: center;
+  padding: 100px 100px 100px 100px;
+  background-color: #4CAF50;
 }
-p {
-  border:1px solid gray;
-  background-color: #9792E3;
+p{
+  font-family: 'Montserrat', sans-serif;
+
+  text-decoration: underline;
+}
+h4{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+h2{
+  font-family: 'Indie Flower', cursive;
+}
+h1{
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+
 }
 img{
   width:200px;
   height:100px;
   padding: 20px,20px,20px,20px;
-}
-
-
-ul a:hover {
-  background-color: #555;
-  color: black;
-  border: 1px solid #555;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color: #61E786;
-  border: 1px solid #555;
 }
