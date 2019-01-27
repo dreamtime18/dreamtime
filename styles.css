@@ -23,7 +23,9 @@ li a {
 
 }
 
-/* Change the link color to #111 (black) on hover */
+img{
+
+}
 li a:hover {
   background-color: #CCC;
 }
@@ -38,8 +40,9 @@ li a:hover {
 }
 p{
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 
-  
+
 }
 h4{
   font-family: 'Open Sans Condensed', sans-serif;
@@ -50,10 +53,35 @@ h2{
 h1{
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
+  padding: 90px 90px 90px 90px;
+  background-color: #4CAF50;
 
 }
 img{
-  width:200px;
-  height:100px;
+  width:300px;
+  height:150px;
   padding: 20px,20px,20px,20px;
+  align:"middle";
+}
+.about{
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+a{
+  text-align: center;
+}
+
+
+.aboutMe{
+  background-color: #4CAF50;
+}
+#dt{
+  height: 200px;
+  width: 200px;
+}
+#app{
+  height: 500px;
+  width:250px;
 }
