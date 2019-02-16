@@ -31,12 +31,12 @@ li a:hover {
 }
 
 .active{
-  background-color: #4CAF50;
+  background-color: #2b77f2;
 }
 .banner{
   text-align: center;
   padding: 100px 100px 100px 100px;
-  background-color: #4CAF50;
+  background-color: #2b77f2;
 }
 p{
   font-family: 'Montserrat', sans-serif;
@@ -54,7 +54,7 @@ h1{
   font-family: 'Shadows Into Light', cursive;
   text-align: center;
   padding: 90px 90px 90px 90px;
-  background-color: #4CAF50;
+  background-color: #FFF;
 
 }
 img{
@@ -63,8 +63,9 @@ img{
   padding: 20px,20px,20px,20px;
   align:"middle";
 }
-.about{
+#about{
   text-align: center;
+  background-color: #FFF;
 }
 footer{
   text-align: center;
@@ -84,4 +85,15 @@ a{
 #app{
   height: 1000px;
   width:500px;
+}
+body {
+   margin: 0;
+   background-color: #2b77f2;
+}
+#projects{
+  text-align: center;
+}
+#contact{
+  text-align: center;
+  background-color: #FFF;
 }

@@ -2,10 +2,13 @@
 <html>
   <head>
     <div class="title">
-      <title> Orvil </title>
+      <title id="title"> Orvil </title>
     </div>
 
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+</script>
     <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Barcode+39" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
@@ -15,18 +18,22 @@
 
   </head>
   <nav>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a class="active" href="#home">Home</a></li>
+    <li id="contact-navigation-button"><a href="#contact">Contact</a></li>
+    <li id="project-navigation-button"><a href="#projects">Projects</a></li>
+    <li id="about-navigation-button"><a href="#about">About</a></li>
+    <li id=""><a class="active" href="#home">Home</a></li>
+  </nav>
+  <nav>
+
   </nav>
   <body>
 
 
-    <h1 class="banner">Hi, my name is Orvil. This is my website.</h1>
+    <h1 class="banner" id="banner">Hi, my name is Orvil. This is my website.</h1>
 
-    <h2 class="nav-bar" id="about">About</h2>
-    <div >
+<div class="pages" id="about">
+    <h2> ▼ About</h2>
+    <div class="nav-bar" id="about-info" >
       <p class="about"> I was born in Denton, Texas. I am 15 years old and live in Oakland, California.</p>
       <h4>School</h4>
       <p> I am currently a freshman at MetWest High School. At school I take 6 different classes. I take Advisory which is more or less Humanities, History and English with a lot of Ethnic Studies. I preffer to think of this class as homeroom because that is what it feels like to me. I also take Integrated Science 1 which should prepare me for when I take Biology and Chemistry or other sciences. There's also Build, a class about entreprenuership and running your own business. For this class I am working on creating a mobile application called DreamTime with the help of Coach Wolf from CodeNext. I take also take IWT, Independent Work Time, which is a free block where I can do work and complete any homework I have. I take Geometry as well. Then there's Studio Production which is a Laney classs, in the community college. This class is a college class which counts as college credit and art credit. I hope that after taking that class I can get an internship related to film next year. </p>
@@ -36,9 +43,14 @@
       <p>I love tech because with tech you can create so many things. I was able to make this portfolio because of tech. Tech has can change the world around you and lead to some interesting inovations. I hope that I can make a difference in this world  with tech. I believe that with tech I could create a website, game or app. But most importantly I can use tech to change my community and make the World a better place. </p>
 
     </div>
+</div>
 
-    <div class="nav-bar" id="projects">
-      <h2>My projects</h2>
+
+
+<div class="pages" id="projects">
+  <h2>▼ My projects</h2>
+    <div class="nav-bar" id="projects-info">
+
       <img src="cr7.png" <p> This was one of my first projects. It is Cristiano Ronaldo in his Juventus shirt. </p>
 
       <img id="p5.js" src="https://media.giphy.com/media/fns5vFS7VKI43Iewv8/giphy.gif"<p> Here is a project I made that makes my name shrink, grow and change colors</p>
@@ -51,28 +63,25 @@
         <a href="https://editor.p5js.org/orvile@csedge.org/full/rkD_JMps7">This is my name project link.</a>
         <p> The current project I am working on is an app called DreamTime. It is still in development, but much progress is being made. I am building this using android studio and hope to have this released sometime in between these next couple of months. We have released a couple of surveys to gather information to help the development of the app. <a href="https://docs.google.com/forms/d/e/1FAIpQLScIHbl1Pnc5mZjxBXEiHNGdecggqNthWQJnBOqAVUhN5tXisw/viewform"> You can take our latest survey through this link.  </a> </p>
         <img id="dt" src="meditate.png" >
-      
+
 
       </div>
+</div>
 
 
 
+<div class="pages" id="contact">
+  <h2>▼ Contact </h2>
 
-    </div class="nav-bar" id="contact">
-      <h2>Contact </h2>
+
+<div class="nav-bar" id="contact-info">
       <h1>You can contact me by email at <a href="mailto:orvile@csedge.org">orvile@csedge.org</a> </h1>
+</div>
+</div>
 
-
-
-
-
-    <div>
-
-
-
-    </div>
 
 
   </body>
   <footer> Site designed by Orvil Escalante. </footer>
+    <script src="script.js"></script>
 </html>
