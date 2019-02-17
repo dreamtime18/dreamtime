@@ -2,7 +2,7 @@ $(document).ready(function(){
 
   $("#contact").click(hide)
   function hide (){
-    $("#contact-info").fadeToggle()
+    $("#contact-info").fadeToggle("slow")
   }
 
 
@@ -13,7 +13,7 @@ $(document).ready(function(){
 
   $("#about").click(hidess)
   function hidess (){
-    $("#about-info").slideToggle()
+    $("#about-info").fadeToggle("slow")
   }
 
 

@@ -72,6 +72,7 @@ footer{
 }
 a{
   text-align: center;
+  text-decoration: none;
 }
 
 
@@ -83,8 +84,12 @@ a{
   width: 400px;
 }
 #app{
-  height: 1000px;
-  width:500px;
+  height: 500px;
+  width:250px;
+}
+#ap{
+  height:500px;
+  width:300px;
 }
 body {
    margin: 0;
@@ -96,4 +101,7 @@ body {
 #contact{
   text-align: center;
   background-color: #FFF;
+}
+h3{
+  text-decoration-style: strong;
 }
