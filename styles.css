@@ -45,7 +45,8 @@ li a:hover {
   color: #2b77f2;
   font-weight: 900;
   font-size: 350%;
-  text-decoration-style: strong;
+  text-align:left;
+  
 }
 p{
   font-family: 'Montserrat', sans-serif;
@@ -64,7 +65,8 @@ h1{
   text-align: center;
   padding: 90px 90px 90px 90px;
   background-color: #FFF;
-
+  left: 0px;
+  top:0px;
 
 }
 img{
@@ -117,4 +119,5 @@ body {
 }
 h3{
   text-decoration-style: strong;
+
 }
