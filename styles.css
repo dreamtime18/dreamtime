@@ -35,7 +35,7 @@ li a:hover {
 }
 .banner{
   text-align: center;
-  padding: 500px 500px 500px 200px;
+  padding: 500px 500px 500px 500px;
   background-color: #2b77f2;
   border: 2px solid black;
   opacity: 0.6;
@@ -46,7 +46,7 @@ li a:hover {
   font-weight: 900;
   font-size: 350%;
   text-align:left;
-  
+
 }
 p{
   font-family: 'Montserrat', sans-serif;
