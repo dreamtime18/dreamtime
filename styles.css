@@ -22,10 +22,41 @@ li a {
 
 
 }
-
-img{
+#notebook{
+  height: 300px;
+  width: 290px;
 
 }
+#dtnew{
+  height: 400px;
+  width:420px;
+}
+#bear{
+  height: 350px;
+  width: 480px;
+  align:"middle";
+  text-align: "center";
+  text-decoration: "strong";
+}
+#snowman{
+  height:400px;
+  width:290px;
+  align:"middle";
+  text-align: "center";
+
+}
+#snowmanWithColor{
+  height:400px;
+  width:340px;
+  align:"middle";
+  text-align: "center";
+
+}
+.homeMenu{
+
+}
+
+
 li a:hover {
   background-color: #CCC;
 }
@@ -34,14 +65,15 @@ li a:hover {
   background-color: #2b77f2;
 }
 .banner{
-  text-align: center;
+  text-align: left;
   padding: 500px 500px 500px 500px;
   background-color: #2b77f2;
   border: 2px solid black;
   opacity: 0.6;
   background-image: url("me.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+
+
   color: #2b77f2;
   font-weight: 900;
   font-size: 350%;
