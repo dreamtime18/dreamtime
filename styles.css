@@ -8,7 +8,9 @@ nav {
   position: sticky;
   top: 0;
 }
-
+#mainmenu{
+  font-size: 30px;
+}
 li {
   float: right;
 }
@@ -62,19 +64,21 @@ li a:hover {
 }
 
 .active{
-  background-color: #2b77f2;
+  background-color: #ed1544;
 }
 .banner{
   text-align: left;
-  padding: 500px 500px 500px 500px;
-  background-color: #2b77f2;
+
+  background-color: #ed1544;
   border: 2px solid black;
-  opacity: 0.6;
+
   background-image: url("me.jpg");
   background-repeat: no-repeat;
+  padding-bottom: 130px;
+  padding-top: 100px;
 
 
-  color: #2b77f2;
+  color: #000;
   font-weight: 900;
   font-size: 350%;
   text-align:left;
@@ -100,6 +104,7 @@ h1{
   left: 0px;
   top:0px;
 
+
 }
 img{
   width:500px;
@@ -109,7 +114,7 @@ img{
 }
 #about{
   text-align: center;
-  background-color: #FFF;
+  background-color: #ed1544;
   border: 2px solid black;
 }
 footer{
@@ -138,7 +143,7 @@ a{
 }
 body {
    margin: 0;
-   background-color: #2b77f2;
+   background-color: #a2a3a5;
 }
 #projects{
   text-align: center;
@@ -147,9 +152,76 @@ body {
 #contact{
   text-align: center;
   border: 2px solid black;
-  background-color: #FFF;
+  background-color: #ed1544;
+
 }
 h3{
   text-decoration-style: strong;
 
+}
+#avtarstext{
+  font-size: 20px;
+}
+#techimg{
+  height:300px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color: #2196F3;
+
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+#bunny{
+  height:450px;
+}
+#bunnyWithColor{
+  height:450px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+}
+#dreamtimetext{
+  font-size: 50px;
+}
+.grid-p5.js{
+  grid-template-columns: auto;
+}
+#contactme{
+  background-color: #ed1544;
+}
+#lion{
+  height:300px;
+}
+#lionWithColor{
+  height:300px;
+}
+#dreamtimenewlogo{
+  height:300px;
+  width:200px;
+}
+#dreamtimenewlogocolor{
+  height:300px;
+  width:300px;
+}
+#owl{
+  height:500px;
+}
+#instagram{
+  font-size: 50px;
+}
+#p5.jstext{
+  text-align: left;
+  font-size: 30px;
+}
+#logoname{
+  height:50px;
+  width: auto;
 }
