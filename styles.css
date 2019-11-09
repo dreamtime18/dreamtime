@@ -1,223 +1,89 @@
-nav {
-  list-style-type: none;
-
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  width:100%;
   overflow: hidden;
-  background-color: #333;
+  height: 70px;
+  line-height: 70px;
+  background: #1A245F;
+  border-bottom: 2px solid black;
+  position: fixed;
+}
+.logo{
+  width: 80px;
+  float: left;
+  color: #FFF;
+  height: 80px;
 
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 }
-#mainmenu{
-  font-size: 30px;
+.container{
+  width:100%;
+  margin: 0 auto;
 }
-li {
+.menu{
   float: right;
 }
-
-li a {
-  display: block;
-  color: white;
+.menu li{
+  float: left;
+  width: 120px;
+  height: 70px;
+  line-height: 70px;
   text-align: center;
-  padding: 14px 16px;
+  list-style: none;
+}
+.menu li a{
+  color: #FFF;
   text-decoration: none;
-
-
+  font-family: calabri;
+  text-transform: uppercase;
 }
-#notebook{
-  height: 300px;
-  width: 290px;
-
+.menu li:hover{
+  background: #E8C45E;
 }
-#dtnew{
-  height: 400px;
-  width:420px;
-}
-#bear{
-  height: 350px;
-  width: 480px;
-  align:"middle";
-  text-align: "center";
-  text-decoration: "strong";
-}
-#snowman{
-  height:400px;
-  width:290px;
-  align:"middle";
-  text-align: "center";
-
-}
-#snowmanWithColor{
-  height:400px;
-  width:340px;
-  align:"middle";
-  text-align: "center";
-
-}
-.homeMenu{
-
-}
-
-
-li a:hover {
-  background-color: #CCC;
-}
-
-.active{
-  background-color: #ed1544;
-}
-.banner{
-  text-align: left;
-
-  background-color: #ed1544;
-  border: 2px solid black;
-
-  background-image: url("me.jpg");
-  background-repeat: no-repeat;
-  padding-bottom: 130px;
-  padding-top: 100px;
-
-
+.menu li a:hover{
   color: #000;
-  font-weight: 900;
-  font-size: 350%;
-  text-align:left;
-
-}
-p{
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-
-
-}
-h4{
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-h2{
-  font-family: 'Indie Flower', cursive;
-}
-h1{
-  font-family: 'Shadows Into Light', cursive;
-  text-align: center;
-  padding: 90px 90px 90px 90px;
-  background-color: #FFF;
-  left: 0px;
-  top:0px;
-
-
-}
-img{
-  width:500px;
-  height:250px;
-  padding: 20px,20px,20px,20px;
-  align:"middle";
-}
-#about{
-  text-align: center;
-  background-color: #ed1544;
-  border: 2px solid black;
-}
-footer{
-  text-align: center;
-}
-a{
-  text-align: center;
-  text-decoration: none;
 }
 
-
-.aboutMe{
-  background-color: #4CAF50;
+body{
+  background: #FFF;
 }
-#dt{
-  height: 400px;
+.download{
+  height: 100px;
+  width: 100px;
+}
+.lion{
+  padding-left: 150px;
+  height: 300px;
+  width: 375px;
+}
+#phoneScreen{
+  height: 800px;
+  width:400px;
+  padding-left: 20px;
+  padding-top: 80px;
+}
+#androidbutton{
+  height: 170px;
   width: 400px;
+  padding-left: 755px;
+  padding-top: 20px;
 }
-#app{
-  height: 500px;
-  width:250px;
+#description{
+  padding-left: 530px;
+  color: #1A245F;
+  font-size: 55px;
+  padding-top: 100px;
+  font-family: Montserrat;
 }
-#ap{
-  height:500px;
-  width:300px;
+#downloadtext{
+  font-size:30px;
+  padding-left: 555px;
+  font-family: Montserrat;
+  padding-top: 20px;
 }
-body {
-   margin: 0;
-   background-color: #a2a3a5;
-}
-#projects{
-  text-align: center;
-  border: 2px solid black;
-}
-#contact{
-  text-align: center;
-  border: 2px solid black;
-  background-color: #ed1544;
-
-}
-h3{
-  text-decoration-style: strong;
-
-}
-#avtarstext{
-  font-size: 20px;
-}
-#techimg{
-  height:300px;
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto ;
-  background-color: #2196F3;
-
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 40px;
-  text-align: center;
-}
-#bunny{
-  height:450px;
-}
-#bunnyWithColor{
-  height:450px;
-}
-.grid{
-  display: grid;
-  grid-template-columns: auto auto auto ;
-}
-#dreamtimetext{
-  font-size: 50px;
-}
-.grid-p5.js{
-  grid-template-columns: auto;
-}
-#contactme{
-  background-color: #ed1544;
-}
-#lion{
-  height:300px;
-}
-#lionWithColor{
-  height:300px;
-}
-#dreamtimenewlogo{
-  height:300px;
-  width:200px;
-}
-#dreamtimenewlogocolor{
-  height:300px;
-  width:300px;
-}
-#owl{
-  height:500px;
-}
-#instagram{
-  font-size: 50px;
-}
-#p5.jstext{
-  text-align: left;
-  font-size: 30px;
+hr{
+  size:40px;
+  width:120%;
 }
